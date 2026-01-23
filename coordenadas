@@ -115,16 +115,30 @@ win.ExtractorPro = {
         var village = win.TWMap.villages[x * 1000 + y];
         if (!village) return;
         
-        var yaExiste = this.groups.some(g => g.villages.includes(coord));
-        if (yaExiste) {
-            UI.InfoMessage('Ese pueblo ya está en un grupo', 2000);
-            return;
+        var encontrado = false;
+
+        // BUSCAR EN TODOS LOS GRUPOS
+        for (var i = 0; i < this.groups.length; i++) {
+            var index = this.groups[i].villages.indexOf(coord);
+            if (index !== -1) {
+                // SI SE ENCUENTRA (DA IGUAL EL GRUPO), SE ELIMINA
+                this.groups[i].villages.splice(index, 1);
+                this.groups[i].villagesId.splice(index, 1);
+                $('#overlay_' + village.id).remove();
+                UI.InfoMessage('Pueblo desmarcado', 1000);
+                encontrado = true;
+                break; 
+            }
         }
 
-        var group = this.groups[this.currentGroup];
-        group.villages.push(coord);
-        group.villagesId.push(village.id);
-        this.drawVillage(village.id, this.currentGroup);
+        // SI NO ESTABA EN NINGÚN GRUPO, SE AÑADE AL GRUPO ACTUAL
+        if (!encontrado) {
+            var group = this.groups[this.currentGroup];
+            group.villages.push(coord);
+            group.villagesId.push(village.id);
+            this.drawVillage(village.id, this.currentGroup);
+        }
+        
         this.outputCoords();
     },
 
