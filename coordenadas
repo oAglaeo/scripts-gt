@@ -1,0 +1,176 @@
+javascript:
+win = window;
+
+var groupColors = [
+    { outline:'rgba(0,255,0,0.9)',    bg:'rgba(0,255,0,0.18)', hex: '#00cc00' },  
+    { outline:'rgba(0,128,255,0.9)', bg:'rgba(0,128,255,0.18)', hex: '#0080ff' }, 
+    { outline:'rgba(255,0,0,0.9)',    bg:'rgba(255,0,0,0.18)', hex: '#ff0000' },   
+    { outline:'rgba(255,165,0,0.9)', bg:'rgba(255,165,0,0.18)', hex: '#ffa500' }, 
+    { outline:'rgba(138,43,226,0.9)',bg:'rgba(138,43,226,0.18)', hex: '#8a2be2' },
+    { outline:'rgba(0,206,209,0.9)', bg:'rgba(0,206,209,0.18)', hex: '#00ced1' },
+    { outline:'rgba(255,20,147,0.9)',bg:'rgba(255,20,147,0.18)', hex: '#ff1493' }
+];
+
+win.ExtractorPro = {
+    currentGroup: 0,
+    formatList: false,
+    groups: [{ villages: [], villagesId: [] }],
+
+    enableScript: function () {
+        if (game_data.screen !== 'map') {
+            UI.ErrorMessage('Ejecuta el script desde el mapa', 5000);
+            return;
+        }
+        this.oldClickFunction = win.TWMap.mapHandler.onClick;
+        this.oldSpawn = win.TWMap.mapHandler.spawnSector;
+        var self = this;
+        win.TWMap.mapHandler.spawnSector = function(data, sector) {
+            self.oldSpawn.apply(this, arguments);
+            self.redrawAllVillages();
+        };
+        win.TWMap.mapHandler.onClick = this.clickFunction;
+        win.TWMap.reload();
+        this.showUi();
+    },
+
+    showUi: function () {
+        var self = this;
+        var panelHtml = `
+            <div id="EP_panel" style="margin-top:15px; background:#f4e4bc; border:1px solid #7d510f; border-radius:3px; width:100%; font-family: Verdana, Arial;">
+                <div style="background:#d2c09e; padding:5px; border-bottom:1px solid #7d510f; display:flex; justify-content:space-between; align-items:center;">
+                    <span style="font-weight:bold; color:#603000;">Extractor</span>
+                    <span id="EP_close" style="color:#aa0000; cursor:pointer; font-weight:bold;">[X]</span>
+                </div>
+                <div style="padding:10px;">
+                    <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:10px; gap: 5px;">
+                        <button id="newGroupBtn" class="btn" title="Añadir nuevo grupo">+ Grupo</button>
+                        <button id="toggleFormat" class="btn" style="font-size: 10px;">Modo: H</button>
+                        <div style="display:flex; align-items:center; background:#eee; border:1px solid #7d510f; border-radius:4px; padding:2px 5px;">
+                            <span id="prevGrp" style="cursor:pointer; font-weight:bold; padding:0 5px;"><</span>
+                            <span style="font-size:11px; margin:0 5px;">G: <b id="grpNumDisp" style="color:#fff; background:#00cc00; padding:1px 5px; border-radius:10px;">1</b></span>
+                            <span id="nextGrp" style="cursor:pointer; font-weight:bold; padding:0 5px;">></span>
+                        </div>
+                    </div>
+                    <div id="outputDisplay" style="width:100%; height:140px; overflow-y:auto; border:1px solid #804000; border-radius:2px; padding:5px; background:#fff7e6; color:#333; font-size:11px; font-family:monospace; white-space: pre-wrap;"></div>
+                    <button id="copyBtn" class="btn" style="width:100%; margin-top:8px; background: #603000; color: white;">Copiar Coordenadas</button>
+                </div>
+            </div>`;
+
+        $('#map_config').prepend(panelHtml);
+
+        $('#EP_close').on('click', function() {
+            win.TWMap.mapHandler.onClick = self.oldClickFunction;
+            win.TWMap.mapHandler.spawnSector = self.oldSpawn;
+            $('[id^="overlay_"]').remove();
+            $('#EP_panel').remove();
+        });
+
+        $('#newGroupBtn').on('click', function (e) {
+            e.preventDefault();
+            self.groups.push({ villages: [], villagesId: [] });
+            self.currentGroup = self.groups.length - 1;
+            self.updateGroupDisplay();
+        });
+
+        $('#prevGrp').on('click', function() {
+            if (self.currentGroup > 0) {
+                self.currentGroup--;
+                self.updateGroupDisplay();
+            }
+        });
+
+        $('#nextGrp').on('click', function() {
+            if (self.currentGroup < self.groups.length - 1) {
+                self.currentGroup++;
+                self.updateGroupDisplay();
+            }
+        });
+
+        $('#toggleFormat').on('click', function(e) {
+            e.preventDefault();
+            self.formatList = !self.formatList;
+            $(this).text(self.formatList ? "Modo: V" : "Modo: H");
+            self.outputCoords();
+        });
+
+        $('#copyBtn').on('click', function() {
+            var textToCopy = $('#outputDisplay').text();
+            var dummy = document.createElement("textarea");
+            document.body.appendChild(dummy);
+            dummy.value = textToCopy;
+            dummy.select();
+            document.execCommand("copy");
+            document.body.removeChild(dummy);
+            UI.SuccessMessage('Coordenadas copiadas al portapapeles', 2000);
+        });
+    },
+
+    updateGroupDisplay: function() {
+        var color = groupColors[this.currentGroup % groupColors.length].hex;
+        $('#grpNumDisp').text(this.currentGroup + 1).css('background', color);
+    },
+
+    handleVillage: function (x, y) {
+        var coord = x + "|" + y;
+        var village = win.TWMap.villages[x * 1000 + y];
+        if (!village) return;
+        
+        var yaExiste = this.groups.some(g => g.villages.includes(coord));
+        if (yaExiste) {
+            UI.InfoMessage('Ese pueblo ya está en un grupo', 2000);
+            return;
+        }
+
+        var group = this.groups[this.currentGroup];
+        group.villages.push(coord);
+        group.villagesId.push(village.id);
+        this.drawVillage(village.id, this.currentGroup);
+        this.outputCoords();
+    },
+
+    drawVillage: function(vId, gIdx) {
+        var vEl = $('#map_village_' + vId);
+        if (!vEl.length) return;
+        var oId = 'overlay_' + vId; 
+        $('#' + oId).remove();
+        var color = groupColors[gIdx % groupColors.length];
+        $('<div>').attr('id', oId).css({
+            position: 'absolute',
+            width: (win.TWMap.map.scale[0] - 2) + 'px',
+            height: (win.TWMap.map.scale[1] - 2) + 'px',
+            outline: color.outline + ' solid 2px',
+            backgroundColor: color.bg,
+            zIndex: 50,
+            pointerEvents: 'none',
+            left: vEl.css('left'),
+            top: vEl.css('top')
+        }).appendTo(vEl.parent());
+    },
+
+    redrawAllVillages: function() {
+        var self = this;
+        this.groups.forEach(function(group, gIdx) {
+            group.villagesId.forEach(function(vId) {
+                if (vId !== null) self.drawVillage(vId, gIdx);
+            });
+        });
+    },
+
+    outputCoords: function () {
+        var html = '';
+        for (var i = 0; i < this.groups.length; i++) {
+            if (!this.groups[i].villages.length) continue;
+            var color = groupColors[i % groupColors.length].hex;
+            var coordsStr = this.formatList ? this.groups[i].villages.join('\n') : this.groups[i].villages.join('  ');
+            html += `<b style="color:${color};">▶ GRUPO ${i + 1}</b>\n${coordsStr}\n\n`;
+        }
+        $('#outputDisplay').html(html).scrollTop($('#outputDisplay')[0].scrollHeight);
+    },
+
+    clickFunction: function (x, y) {
+        win.ExtractorPro.handleVillage(x, y);
+        return false;
+    }
+};
+
+win.ExtractorPro.enableScript();
