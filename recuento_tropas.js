@@ -1,1 +1,239 @@
-var _0x5e127d=_0x549e;(function(_0x23a2a2,_0x53b3e9){var _0x3568ff=_0x549e,_0x5a88f4=_0x23a2a2();while(!![]){try{var _0x320329=parseInt(_0x3568ff(0xc3))/0x1*(parseInt(_0x3568ff(0x79))/0x2)+-parseInt(_0x3568ff(0x96))/0x3+parseInt(_0x3568ff(0x64))/0x4+parseInt(_0x3568ff(0x6a))/0x5+-parseInt(_0x3568ff(0xb5))/0x6*(parseInt(_0x3568ff(0x9a))/0x7)+-parseInt(_0x3568ff(0x8d))/0x8*(parseInt(_0x3568ff(0xa4))/0x9)+parseInt(_0x3568ff(0xaf))/0xa;if(_0x320329===_0x53b3e9)break;else _0x5a88f4['push'](_0x5a88f4['shift']());}catch(_0x55569d){_0x5a88f4['push'](_0x5a88f4['shift']());}}}(_0x2e41,0x376b7));_0x136edd:(window[_0x5e127d(0xce)]['href'][_0x5e127d(0xab)](_0x5e127d(0xb6))<0x0||window[_0x5e127d(0xce)]['href'][_0x5e127d(0xab)](_0x5e127d(0xbb))>-0x1)&&window[_0x5e127d(0xce)][_0x5e127d(0x67)](game_data['link_base_pure']+_0x5e127d(0x90));var CONFIG={'full':0x4650,'threeQuarter':0x34bc,'half':0x2328,'quarter':0x1194},baseURL=_0x5e127d(0x93),playerURLs=[],players=[],playerData={};$('input:radio[name=player]')['each'](function(){var _0xba42bf=_0x5e127d;playerURLs[_0xba42bf(0xd0)](baseURL+$(this)[_0xba42bf(0x73)]('value')),players[_0xba42bf(0xd0)]($(this)[_0xba42bf(0x8a)]()[_0xba42bf(0x77)]()[_0xba42bf(0x84)]());});function _0x549e(_0x2ad4d9,_0x207716){_0x2ad4d9=_0x2ad4d9-0x64;var _0x2e4172=_0x2e41();var _0x549ed8=_0x2e4172[_0x2ad4d9];return _0x549ed8;}var css=_0x5e127d(0x82);function _0x2e41(){var _0x1abffa=['14MSbiDP','full','\x22\x20style=\x22width:55px;\x20background:#2b1b3d;\x20color:white;\x22>\x20|\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x201/2:\x20<input\x20id=\x22v12\x22\x20type=\x22number\x22\x20value=\x22','</tbody>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</table>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>','<tr><td><a\x20href=\x22','append','snob','nukes','split','\x0a<style>\x0a\x20\x20\x20\x20.soph-wrapper\x20{\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20position:\x20fixed;\x20top:\x2080px;\x20left:\x2050%;\x20transform:\x20translateX(-50%);\x0a\x20\x20\x20\x20\x20\x20\x20\x20z-index:\x2010000;\x20width:\x20920px;\x20max-height:\x2085vh;\x20overflow-y:\x20auto;\x0a\x20\x20\x20\x20\x20\x20\x20\x20background:\x20#2b1b3d\x20!important;\x20color:\x20#f0e6ff;\x20font-family:\x20Verdana,Arial;\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20border:\x202px\x20solid\x20#7d4dbb;\x20border-radius:\x2015px;\x20padding:\x2020px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200\x2010px\x2040px\x20rgba(0,0,0,0.8);\x0a\x20\x20\x20\x20}\x0a\x20\x20\x20\x20.script-titulo\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20text-align:\x20center;\x0a\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2024px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20font-weight:\x20bold;\x0a\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#d1b3ff;\x0a\x20\x20\x20\x20\x20\x20\x20\x20margin-bottom:\x2015px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20text-transform:\x20uppercase;\x0a\x20\x20\x20\x20\x20\x20\x20\x20letter-spacing:\x202px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20text-shadow:\x200\x200\x2010px\x20rgba(125,\x2077,\x20187,\x200.6);\x0a\x20\x20\x20\x20}\x0a\x20\x20\x20\x20.nick-firma\x20{\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20position:\x20absolute;\x20top:\x208px;\x20left:\x2015px;\x20font-size:\x2011px;\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#d1b3ff;\x20font-style:\x20italic;\x20font-weight:\x20bold;\x0a\x20\x20\x20\x20\x20\x20\x20\x20text-shadow:\x200\x200\x205px\x20rgba(255,255,255,0.6);\x0a\x20\x20\x20\x20}\x0a\x20\x20\x20\x20.btn-cerrar-x\x20{\x20position:\x20absolute;\x20top:\x205px;\x20right:\x2015px;\x20color:\x20#ff4d4d;\x20cursor:\x20pointer;\x20font-weight:\x20bold;\x20font-size:\x2024px;\x20line-height:\x201;\x20}\x0a\x20\x20\x20\x20\x0a\x20\x20\x20\x20.soph-header\x20{\x20background:\x20#4a2c72;\x20border:\x201px\x20solid\x20#7d4dbb;\x20padding:\x2012px;\x20border-radius:\x2010px;\x20display:\x20flex;\x20justify-content:\x20space-between;\x20align-items:\x20center;\x20margin-top:\x2015px;\x20margin-bottom:\x2015px;\x20}\x0a\x20\x20\x20\x20.soph-config-area\x20{\x20display:\x20none;\x20background:\x20#3a235a;\x20border:\x201px\x20solid\x20#7d4dbb;\x20padding:\x2012px;\x20border-radius:\x2010px;\x20margin-bottom:\x2015px;\x20}\x0a\x20\x20\x20\x20.soph-filter-area\x20{\x20background:\x20#3a235a;\x20border:\x201px\x20solid\x20#7d4dbb;\x20padding:\x2015px;\x20margin-bottom:\x2025px;\x20border-radius:\x2010px;\x20}\x0a\x20\x20\x20\x20\x0a\x20\x20\x20\x20.player-row-main\x20{\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20background:\x20#422a63;\x20border:\x201px\x20solid\x20#7d4dbb;\x20padding:\x208px\x2012px;\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x20align-items:\x20center;\x20justify-content:\x20space-between;\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20margin-top:\x205px;\x20border-radius:\x208px;\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20transition:\x20all\x200.2s\x20ease;\x0a\x20\x20\x20\x20}\x0a\x20\x20\x20\x20.player-row-main:hover\x20{\x20transform:\x20translateX(10px);\x20background:\x20#52357a;\x20box-shadow:\x200\x200\x2010px\x20rgba(125,77,187,0.5);\x20}\x0a\x20\x20\x20\x20\x0a\x20\x20\x20\x20.nuke-counts\x20{\x20display:\x20flex;\x20align-items:\x20center;\x20gap:\x2012px;\x20font-weight:\x20bold;\x20font-size:\x2011px;\x20}\x0a\x20\x20\x20\x20.detail-btn\x20{\x20color:\x20#bb8eff;\x20text-decoration:\x20underline;\x20cursor:\x20pointer;\x20font-size:\x2011px;\x20margin-left:\x2015px;\x20font-weight:\x20bold;\x20}\x0a\x20\x20\x20\x20\x0a\x20\x20\x20\x20.detail-box\x20{\x20display:\x20none;\x20background:\x20#1f1231;\x20border:\x201px\x20solid\x20#7d4dbb;\x20padding:\x2010px;\x20border-radius:\x208px;\x20margin-top:\x202px;\x20}\x0a\x20\x20\x20\x20.tbl-tribal\x20{\x20width:\x20100%;\x20border-collapse:\x20collapse;\x20font-size:\x2011px;\x20}\x0a\x20\x20\x20\x20.tbl-tribal\x20th\x20{\x20background:\x20#4a2c72\x20!important;\x20color:\x20#e0b0ff\x20!important;\x20border:\x201px\x20solid\x20#7d4dbb\x20!important;\x20padding:\x206px;\x20text-align:\x20center;\x20}\x0a\x20\x20\x20\x20.tbl-tribal\x20td\x20{\x20border:\x201px\x20solid\x20#7d4dbb\x20!important;\x20padding:\x205px;\x20background:\x20#2b1b3d\x20!important;\x20text-align:\x20center;\x20color:\x20#ffffff\x20!important;}\x0a\x20\x20\x20\x20\x0a\x20\x20\x20\x20.btn-tribal\x20{\x20background:\x20#7d4dbb;\x20color:\x20white;\x20border:\x201px\x20solid\x20#000;\x20padding:\x205px\x2012px;\x20cursor:\x20pointer;\x20font-weight:\x20bold;\x20font-size:\x2011px;\x20border-radius:\x205px;\x20}\x0a\x20\x20\x20\x20.btn-excel\x20{\x20background:\x20#000000\x20!important;\x20color:\x20#ffffff\x20!important;\x20border:\x201px\x20solid\x20#7d4dbb\x20!important;\x20padding:\x207px\x2018px;\x20cursor:\x20pointer;\x20font-weight:\x20bold;\x20font-size:\x2011px;\x20border-radius:\x206px;\x20margin-top:\x204px;\x20}\x0a\x0a\x20\x20\x20\x20.bb-box,\x20.search-res\x20{\x20display:\x20none\x20!important;\x20background:\x20#2b1b3d;\x20border:\x202px\x20solid\x20#7d4dbb;\x20padding:\x2020px;\x20margin-top:\x2010px;\x20position:\x20relative;\x20border-radius:\x2010px;}\x0a\x20\x20\x20\x20#bbArea\x20{\x20width:\x2098%;\x20height:\x20120px;\x20background:\x20#1f1231;\x20color:\x20#fff;\x20border:\x201px\x20solid\x20#7d4dbb;\x20border-radius:\x205px;\x20padding:\x205px;\x20font-size:\x2010px;}\x0a\x20\x20\x20\x20\x0a\x20\x20\x20\x20.btn-copiar\x20{\x20background:\x20#4a2c72;\x20color:\x20#e0b0ff;\x20border:\x201px\x20solid\x20#7d4dbb;\x20padding:\x203px\x2010px;\x20cursor:\x20pointer;\x20font-size:\x2010px;\x20border-radius:\x204px;\x20margin-top:\x208px;\x20font-weight:\x20bold;\x20transition:\x200.3s;\x20}\x0a\x20\x20\x20\x20.btn-copiar:hover\x20{\x20background:\x20#7d4dbb;\x20color:\x20white;\x20}\x0a\x0a\x20\x20\x20\x20#progressbar\x20{\x20position:\x20fixed;\x20top:\x2040px;\x20left:\x2050%;\x20transform:\x20translateX(-50%);\x20width:\x20800px;\x20background:\x20#2b1b3d\x20!important;\x20z-index:\x2010001;\x20border:\x202px\x20solid\x20#7d4dbb;\x20border-radius:\x2015px;\x20padding:\x203px;\x20box-shadow:\x200\x200\x2020px\x20rgba(0,0,0,0.5);\x20}\x0a\x20\x20\x20\x20#progress\x20{\x20height:\x2035px;\x20background:\x20#7d4dbb\x20!important;\x20text-align:\x20center;\x20color:\x20white\x20!important;\x20line-height:\x2035px;\x20font-weight:\x20bold;\x20border-radius:\x2010px;\x20transition:\x20width\x200.2s;\x20font-size:\x2013px;\x20}\x0a\x20\x20\x20\x20.u-ico\x20{\x20vertical-align:\x20middle;\x20width:\x2016px;\x20height:\x2016px;\x20margin-right:\x202px;\x20}\x0a</style>','light','trim','select','all','<option\x20value=\x22','length','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22player-row-main\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:180px\x22><b>','parent','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>😢\x201/4:\x20','.btn-copiar','9736klZGfS','\x27).slideToggle(150)\x22>+\x20detalles</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22det-','href','ally&mode=members','replace','#bbArea','game.php?screen=ally&mode=members_troops&player_id=','ram','get','1199517axdmek','[/player]\x20[|]\x20','#fVal','body','7UPSlnP','catapult','css','genBB','applyConfig','#vFull','map','copyBB','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22detail-btn\x22\x20onclick=\x22$(\x27#det-','round','639qSpcNy','getElementById','axe','.vis.w100\x20tr','</a></td><td>','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>🤔\x201/2:\x20','each','indexOf','</td><td>','.soph-wrapper','display:\x20block\x20!important;','1916720jbCmca','threeQuarter','style','[b]RECUENTO:\x20[player]','.bb-box','quarter','1666536SgKbyY','&screen=ally&mode=members','remove','half','Copiar','\x22\x20style=\x22color:#bb8eff;\x22>','&screen=ally&mode=members_members_troops','match','\x22\x20style=\x22width:55px;\x20background:#2b1b3d;\x20color:white;\x22>\x20|\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x203/4:\x20<input\x20id=\x22v34\x22\x20type=\x22number\x22\x20value=\x22','width','Prepárate\x20para\x20la\x20alegría\x20o\x20el\x20susto...\x20(','<span\x20onclick=\x22$(\x27#searchRes\x27).hide()\x22\x20style=\x22float:right;\x20cursor:pointer;\x20color:red;\x20font-weight:bold;\x22>X</span><strong>Resultados:</strong><br><table\x20class=\x22tbl-tribal\x22><thead><tr><th>Jugador</th><th>Coord</th><th>Hacha</th><th>Lija</th><th>Ariete</th><th>Catas</th></tr></thead><tbody>','[*]\x20[player]','spy','26347UMpHtt','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span><img\x20src=\x22https://dses.innogamescdn.com/asset/809c991e/graphic/unit/unit_axe.png\x22\x20class=\x22u-ico\x22>\x203/4:\x20','\x22\x20class=\x22detail-box\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<table\x20class=\x22tbl-tribal\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<thead><tr><th>Coord</th><th>Hacha</th><th>Lija</th><th>Ariete</th><th>Catas</th><th>Snob</th></tr></thead>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tbody>','</td></tr>','\x22\x20style=\x22width:55px;\x20background:#2b1b3d;\x20color:white;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22btn-tribal\x22\x20onclick=\x22applyConfig()\x22>Actualizar</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22soph-filter-area\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<b>Filtro:</b><br><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<select\x20id=\x22fAttr\x22\x20style=\x22background:#2b1b3d;\x20color:white;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22axe\x22>Hachas</option><option\x20value=\x22light\x22>Ligeras</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22ram\x22>Arietes</option><option\x20value=\x22catapult\x22>Catas</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22cX\x22>Coordenada\x20X</option><option\x20value=\x22cY\x22>Coordenada\x20Y</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</select>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<select\x20id=\x22fComp\x22\x20style=\x22background:#2b1b3d;\x20color:white;\x22><option\x20value=\x22>\x22>></option><option\x20value=\x22<\x22><</option><option\x20value=\x22=\x22>=</option></select>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22number\x22\x20id=\x22fVal\x22\x20value=\x220\x22\x20style=\x22width:65px;\x20background:#2b1b3d;\x20color:white;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22btn-tribal\x22\x20onclick=\x22runFilter()\x22>Filtrar</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22searchRes\x22\x20class=\x22search-res\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bb-box\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20onclick=\x22$(\x27.bb-box\x27).hide()\x22\x20style=\x22cursor:pointer;\x20color:red;\x20float:right;\x20font-weight:bold;\x22>X</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<textarea\x20id=\x22bbArea\x22\x20readonly></textarea>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22btn-copiar\x22\x20onclick=\x22copyBB()\x22>Copiar</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22pCont\x22></div>\x0a\x20\x20\x20\x20</div>','createElement','#progress','head','#4a2c72','informe_ofensivo.csv','not','location','marcher','push','url','forEach','offVillages','runFilter','\x20[|]\x20','find','#fAttr','1707892pqzgWL','#v14','setSelectionRange','assign','val','#pCont','939635dWqpWy','coord','¡Copiado!','createObjectURL','download','#28a745','</tbody></table>','html','click','attr','a[href*=\x27screen=info_village\x27]','Jugador;Pueblo;Hachas;Ligeras;Arietes;Catas\x0a','#fComp','text','writeText'];_0x2e41=function(){return _0x1abffa;};return _0x2e41();}$(_0x5e127d(0xca))[_0x5e127d(0x7e)](css),window[_0x5e127d(0xd4)]=function(){var _0x4f3d63=_0x5e127d,_0x52192f=$(_0x4f3d63(0xd7))[_0x4f3d63(0x68)](),_0x2afa7c=$(_0x4f3d63(0x76))[_0x4f3d63(0x68)](),_0x2d477b=parseInt($(_0x4f3d63(0x98))[_0x4f3d63(0x68)]())||0x0,_0x56bd8b=[];$['each'](playerData,function(_0x51677c,_0x39f5c6){var _0x250271=_0x4f3d63;_0x39f5c6['offVillages'][_0x250271(0xd2)](_0x6eedeb=>{var _0x5c4be1=_0x250271,_0x564640=_0x6eedeb[_0x52192f];if(_0x52192f==='cX')_0x564640=parseInt(_0x6eedeb[_0x5c4be1(0x6b)][_0x5c4be1(0x81)]('|')[0x0]);if(_0x52192f==='cY')_0x564640=parseInt(_0x6eedeb[_0x5c4be1(0x6b)][_0x5c4be1(0x81)]('|')[0x1]);var _0x476db3=_0x2afa7c==='>'?_0x564640>_0x2d477b:_0x2afa7c==='<'?_0x564640<_0x2d477b:_0x564640===_0x2d477b;if(_0x476db3)_0x56bd8b[_0x5c4be1(0xd0)]({'p':_0x51677c,'v':_0x6eedeb});});});var _0x2cb6fc=_0x4f3d63(0xc0);_0x56bd8b['forEach'](_0x504460=>{var _0x19d63e=_0x4f3d63;_0x2cb6fc+='<tr><td>'+_0x504460['p']+'</td><td><a\x20href=\x22'+_0x504460['v'][_0x19d63e(0xd1)]+'\x22\x20style=\x22color:#bb8eff;\x22>'+_0x504460['v'][_0x19d63e(0x6b)]+_0x19d63e(0xa8)+_0x504460['v'][_0x19d63e(0xa6)]+_0x19d63e(0xac)+_0x504460['v']['light']+_0x19d63e(0xac)+_0x504460['v'][_0x19d63e(0x94)]+_0x19d63e(0xac)+_0x504460['v'][_0x19d63e(0x9b)]+_0x19d63e(0xc6);}),_0x2cb6fc+=_0x4f3d63(0x70),$('#searchRes')[_0x4f3d63(0x71)](_0x2cb6fc)[_0x4f3d63(0x73)]('style',_0x4f3d63(0xae));},window[_0x5e127d(0xa1)]=function(){var _0xd24396=_0x5e127d,_0x711539=document[_0xd24396(0xa5)]('bbArea');_0x711539[_0xd24396(0x85)](),_0x711539[_0xd24396(0x66)](0x0,0x1869f),navigator['clipboard'][_0xd24396(0x78)](_0x711539['value']);var _0x31260c=$(_0xd24396(0x8c));_0x31260c['text'](_0xd24396(0x6c))['css']('background',_0xd24396(0x6f)),setTimeout(function(){var _0x2f8d56=_0xd24396;_0x31260c[_0x2f8d56(0x77)](_0x2f8d56(0xb9))[_0x2f8d56(0x9c)]('background',_0x2f8d56(0xcb));},0x7d0);},window[_0x5e127d(0x9d)]=function(){var _0x2935e1=_0x5e127d,_0x35008f=$('#bbFilter')[_0x2935e1(0x68)](),_0x5eb069=_0x35008f===_0x2935e1(0x86)?'[b]RECUENTO\x20OFENSIVO\x20TRIBU[/b]\x0a[table][**]Jugador[||]Full[||]3/4[||]1/2[||]1/4[/**]\x0a':_0x2935e1(0xb2)+_0x35008f+'[/player][/b]\x0a[table][**]Pueblo[||]Hacha[||]Lija[||]Ariete[||]Catas[/**]\x0a';if(_0x35008f==='all')$[_0x2935e1(0xaa)](playerData,function(_0x4d8b74,_0x2a15c4){var _0x4f9730=_0x2935e1;_0x5eb069+=_0x4f9730(0xc1)+_0x4d8b74+_0x4f9730(0x97)+_0x2a15c4['nukes']['f']+_0x4f9730(0xd5)+_0x2a15c4[_0x4f9730(0x80)]['tq']+_0x4f9730(0xd5)+_0x2a15c4[_0x4f9730(0x80)]['h']+_0x4f9730(0xd5)+_0x2a15c4[_0x4f9730(0x80)]['q']+'\x0a';});else playerData[_0x35008f][_0x2935e1(0xd3)][_0x2935e1(0xd2)](_0x359029=>{var _0x53b91e=_0x2935e1;_0x5eb069+='[*]\x20'+_0x359029[_0x53b91e(0x6b)]+_0x53b91e(0xd5)+_0x359029['axe']+'\x20[|]\x20'+_0x359029[_0x53b91e(0x83)]+_0x53b91e(0xd5)+_0x359029['ram']+_0x53b91e(0xd5)+_0x359029[_0x53b91e(0x9b)]+'\x0a';});_0x5eb069+='[/table]',$(_0x2935e1(0x92))[_0x2935e1(0x68)](_0x5eb069),$(_0x2935e1(0xb3))['attr'](_0x2935e1(0xb1),_0x2935e1(0xae));},window['exportExcel']=function(){var _0x37a600=_0x5e127d,_0x1d1f39=_0x37a600(0x75);$['each'](playerData,function(_0x3885e8,_0x390248){var _0x1dfd88=_0x37a600;_0x390248[_0x1dfd88(0xd3)][_0x1dfd88(0xd2)](_0x225f8e=>{var _0x82eb7f=_0x1dfd88;_0x1d1f39+=_0x3885e8+';'+_0x225f8e[_0x82eb7f(0x6b)]+';'+_0x225f8e['axe']+';'+_0x225f8e[_0x82eb7f(0x83)]+';'+_0x225f8e[_0x82eb7f(0x94)]+';'+_0x225f8e['catapult']+'\x0a';});});var _0x381ccf=document[_0x37a600(0xc8)]('a');_0x381ccf[_0x37a600(0x8f)]=URL[_0x37a600(0x6d)](new Blob([_0x1d1f39],{'type':'text/csv'})),_0x381ccf[_0x37a600(0x6e)]=_0x37a600(0xcc),_0x381ccf[_0x37a600(0x72)]();};function renderUI(){var _0x6e7a6=_0x5e127d;$(_0x6e7a6(0xad))['remove']();var _0x68645b='\x0a\x20\x20\x20\x20<div\x20class=\x22soph-wrapper\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22nick-firma\x22>aaglaee\x20💜</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22btn-cerrar-x\x22\x20onclick=\x22$(\x27.soph-wrapper\x27).remove()\x22>✘</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22script-titulo\x22>Recuento\x20Ofensivo</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22soph-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20onclick=\x22$(\x27.soph-config-area\x27).slideToggle(200)\x22\x20style=\x22cursor:pointer;\x20font-size:\x2020px;\x22>⚙️</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22margin-left:15px;\x20font-weight:bold;\x22>Exportar:</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<select\x20id=\x22bbFilter\x22\x20style=\x22background:#2b1b3d;\x20color:white;\x20border-radius:4px;\x22><option\x20value=\x22all\x22>--\x20TODA\x20LA\x20TRIBU\x20--</option></select>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22btn-tribal\x22\x20onclick=\x22genBB()\x22>BBCode</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22btn-excel\x22\x20onclick=\x22exportExcel()\x22>Exportar\x20Excel</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22soph-config-area\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<b>Configuración:</b><br><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20F:\x20<input\x20id=\x22vFull\x22\x20type=\x22number\x22\x20value=\x22'+CONFIG[_0x6e7a6(0x7a)]+_0x6e7a6(0xbd)+CONFIG[_0x6e7a6(0xb0)]+_0x6e7a6(0x7b)+CONFIG[_0x6e7a6(0xb8)]+'\x22\x20style=\x22width:55px;\x20background:#2b1b3d;\x20color:white;\x22>\x20|\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x201/4:\x20<input\x20id=\x22v14\x22\x20type=\x22number\x22\x20value=\x22'+CONFIG['quarter']+_0x6e7a6(0xc7);$('body')[_0x6e7a6(0x7e)](_0x68645b),$['each'](playerData,function(_0x5489a8,_0x17c55e){var _0x1088fb=_0x6e7a6;$('#bbFilter')['append'](_0x1088fb(0x87)+_0x5489a8+'\x22>'+_0x5489a8+'</option>');var _0x1be25c=_0x5489a8[_0x1088fb(0x91)](/\s/g,'_')[_0x1088fb(0x91)](/['"]/g,''),_0xdd71a7=_0x1088fb(0x89)+_0x5489a8+'</b></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22nuke-counts\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span><img\x20src=\x22https://dses.innogamescdn.com/asset/809c991e/graphic/unit/unit_ram.png\x22\x20class=\x22u-ico\x22>\x20F:\x20'+_0x17c55e[_0x1088fb(0x80)]['f']+_0x1088fb(0xc4)+_0x17c55e[_0x1088fb(0x80)]['tq']+_0x1088fb(0xa9)+_0x17c55e['nukes']['h']+_0x1088fb(0x8b)+_0x17c55e[_0x1088fb(0x80)]['q']+_0x1088fb(0xa2)+_0x1be25c+_0x1088fb(0x8e)+_0x1be25c+_0x1088fb(0xc5)+_0x17c55e['offVillages'][_0x1088fb(0xa0)](_0xd22438=>_0x1088fb(0x7d)+_0xd22438[_0x1088fb(0xd1)]+_0x1088fb(0xba)+_0xd22438[_0x1088fb(0x6b)]+_0x1088fb(0xa8)+_0xd22438[_0x1088fb(0xa6)]+'</td><td>'+_0xd22438[_0x1088fb(0x83)]+'</td><td>'+_0xd22438[_0x1088fb(0x94)]+'</td><td>'+_0xd22438[_0x1088fb(0x9b)]+_0x1088fb(0xac)+_0xd22438[_0x1088fb(0x7f)]+'</td></tr>')['join']('')+_0x1088fb(0x7c);$(_0x1088fb(0x69))['append'](_0xdd71a7);});}function startAnalysis(){var _0x454e9c=_0x5e127d;$('.soph-wrapper,\x20#progressbar')[_0x454e9c(0xb7)](),playerData={},$(_0x454e9c(0x99))[_0x454e9c(0x7e)]('<div\x20id=\x22progressbar\x22><div\x20id=\x22progress\x22\x20style=\x22width:\x200%;\x22>Prepárate\x20para\x20la\x20alegría\x20o\x20el\x20susto...</div></div>');var _0x25e6ec=0x0;function _0x3506ec(){var _0x84e581=_0x454e9c;if(_0x25e6ec>=players[_0x84e581(0x88)]){$('#progressbar')[_0x84e581(0xb7)](),renderUI();return;}$(_0x84e581(0xc9))[_0x84e581(0x9c)](_0x84e581(0xbe),(_0x25e6ec+0x1)/players[_0x84e581(0x88)]*0x64+'%')[_0x84e581(0x77)](_0x84e581(0xbf)+Math[_0x84e581(0xa3)]((_0x25e6ec+0x1)/players['length']*0x64)+'%)'),$[_0x84e581(0x95)](playerURLs[_0x25e6ec],function(_0xe0bd7b){var _0x57aae5=_0x84e581,_0x44ca99={'nukes':{'f':0x0,'tq':0x0,'h':0x0,'q':0x0},'offVillages':[]};$(_0xe0bd7b)[_0x57aae5(0xd6)](_0x57aae5(0xa7))[_0x57aae5(0xcd)](':first')[_0x57aae5(0xaa)](function(){var _0x46f685=_0x57aae5,_0x3ad26d=$(this)['children'](),_0x351932=_0x3ad26d[_0x46f685(0xd6)](_0x46f685(0x74))['first']();if(_0x351932[_0x46f685(0x88)]===0x0)return;var _0x5bc030=_0x351932['text']()[_0x46f685(0xbc)](/\d{1,3}\|\d{1,3}/);if(!_0x5bc030)return;var _0x1bda72={'url':_0x351932['attr'](_0x46f685(0x8f)),'coord':_0x5bc030[0x0],'axe':parseInt(_0x3ad26d['eq'](0x4)[_0x46f685(0x77)]())||0x0,'spy':parseInt(_0x3ad26d['eq'](0x6)[_0x46f685(0x77)]())||0x0,'light':parseInt(_0x3ad26d['eq'](0x7)['text']())||0x0,'marcher':parseInt(_0x3ad26d['eq'](0x8)[_0x46f685(0x77)]())||0x0,'ram':parseInt(_0x3ad26d['eq'](0xa)[_0x46f685(0x77)]())||0x0,'catapult':parseInt(_0x3ad26d['eq'](0xb)['text']())||0x0,'snob':parseInt(_0x3ad26d['eq'](0xd)['text']())||0x0},_0x298ba5=_0x1bda72['axe']+_0x1bda72[_0x46f685(0xc2)]*0x2+_0x1bda72[_0x46f685(0x83)]*0x4+_0x1bda72[_0x46f685(0xcf)]*0x5+_0x1bda72['ram']*0x5+_0x1bda72['catapult']*0x8;if(_0x298ba5>=CONFIG[_0x46f685(0xb4)]){if(_0x298ba5>=CONFIG[_0x46f685(0x7a)])_0x44ca99[_0x46f685(0x80)]['f']++;else{if(_0x298ba5>=CONFIG[_0x46f685(0xb0)])_0x44ca99[_0x46f685(0x80)]['tq']++;else{if(_0x298ba5>=CONFIG[_0x46f685(0xb8)])_0x44ca99[_0x46f685(0x80)]['h']++;else _0x44ca99[_0x46f685(0x80)]['q']++;}}_0x44ca99[_0x46f685(0xd3)][_0x46f685(0xd0)](_0x1bda72);}}),playerData[players[_0x25e6ec]]=_0x44ca99,_0x25e6ec++,setTimeout(_0x3506ec,0xfa);});}_0x3506ec();}window[_0x5e127d(0x9e)]=function(){var _0x1d6f66=_0x5e127d;CONFIG[_0x1d6f66(0x7a)]=parseInt($(_0x1d6f66(0x9f))[_0x1d6f66(0x68)]())||0x4650,CONFIG[_0x1d6f66(0xb0)]=parseInt($('#v34')['val']())||0x34bc,CONFIG[_0x1d6f66(0xb8)]=parseInt($('#v12')[_0x1d6f66(0x68)]())||0x2328,CONFIG[_0x1d6f66(0xb4)]=parseInt($(_0x1d6f66(0x65))[_0x1d6f66(0x68)]())||0x1194,startAnalysis();},startAnalysis();
+javascript:
+if (window.location.href.indexOf('&screen=ally&mode=members') < 0 || window.location.href.indexOf('&screen=ally&mode=members_members_troops') > -1) {
+    window.location.assign(game_data.link_base_pure + "ally&mode=members");
+}
+
+var CONFIG = { full: 18000, threeQuarter: 13500, half: 9000, quarter: 4500 };
+var baseURL = `game.php?screen=ally&mode=members_troops&player_id=`;
+var playerURLs = [];
+var players = [];
+var playerData = {};
+
+$('input:radio[name=player]').each(function () {
+    playerURLs.push(baseURL + $(this).attr("value"));
+    players.push($(this).parent().text().trim());
+});
+
+var css = `
+<style>
+    .soph-wrapper { 
+        position: fixed; top: 80px; left: 50%; transform: translateX(-50%);
+        z-index: 10000; width: 920px; max-height: 85vh; overflow-y: auto;
+        background: #2b1b3d !important; color: #f0e6ff; font-family: Verdana,Arial; 
+        border: 2px solid #7d4dbb; border-radius: 15px; padding: 20px;
+        box-shadow: 0 10px 40px rgba(0,0,0,0.8);
+    }
+    .script-titulo {
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+        color: #d1b3ff;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        text-shadow: 0 0 10px rgba(125, 77, 187, 0.6);
+    }
+    .nick-firma { 
+        position: absolute; top: 8px; left: 15px; font-size: 11px; 
+        color: #d1b3ff; font-style: italic; font-weight: bold;
+        text-shadow: 0 0 5px rgba(255,255,255,0.6);
+    }
+    .btn-cerrar-x { position: absolute; top: 5px; right: 15px; color: #ff4d4d; cursor: pointer; font-weight: bold; font-size: 24px; line-height: 1; }
+    
+    .soph-header { background: #4a2c72; border: 1px solid #7d4dbb; padding: 12px; border-radius: 10px; display: flex; justify-content: space-between; align-items: center; margin-top: 15px; margin-bottom: 15px; }
+    .soph-config-area { display: none; background: #3a235a; border: 1px solid #7d4dbb; padding: 12px; border-radius: 10px; margin-bottom: 15px; }
+    .soph-filter-area { background: #3a235a; border: 1px solid #7d4dbb; padding: 15px; margin-bottom: 25px; border-radius: 10px; }
+    
+    .player-row-main { 
+        background: #422a63; border: 1px solid #7d4dbb; padding: 8px 12px; 
+        display: flex; align-items: center; justify-content: space-between; 
+        margin-top: 5px; border-radius: 8px; 
+        transition: all 0.2s ease;
+    }
+    .player-row-main:hover { transform: translateX(10px); background: #52357a; box-shadow: 0 0 10px rgba(125,77,187,0.5); }
+    
+    .nuke-counts { display: flex; align-items: center; gap: 12px; font-weight: bold; font-size: 11px; }
+    .detail-btn { color: #bb8eff; text-decoration: underline; cursor: pointer; font-size: 11px; margin-left: 15px; font-weight: bold; }
+    
+    .detail-box { display: none; background: #1f1231; border: 1px solid #7d4dbb; padding: 10px; border-radius: 8px; margin-top: 2px; }
+    .tbl-tribal { width: 100%; border-collapse: collapse; font-size: 11px; }
+    .tbl-tribal th { background: #4a2c72 !important; color: #e0b0ff !important; border: 1px solid #7d4dbb !important; padding: 6px; text-align: center; }
+    .tbl-tribal td { border: 1px solid #7d4dbb !important; padding: 5px; background: #2b1b3d !important; text-align: center; color: #ffffff !important;}
+    
+    .btn-tribal { background: #7d4dbb; color: white; border: 1px solid #000; padding: 5px 12px; cursor: pointer; font-weight: bold; font-size: 11px; border-radius: 5px; }
+    .btn-excel { background: #000000 !important; color: #ffffff !important; border: 1px solid #7d4dbb !important; padding: 7px 18px; cursor: pointer; font-weight: bold; font-size: 11px; border-radius: 6px; margin-top: 4px; }
+
+    .bb-box, .search-res { display: none !important; background: #2b1b3d; border: 2px solid #7d4dbb; padding: 20px; margin-top: 10px; position: relative; border-radius: 10px;}
+    #bbArea { width: 98%; height: 120px; background: #1f1231; color: #fff; border: 1px solid #7d4dbb; border-radius: 5px; padding: 5px; font-size: 10px;}
+    
+    .btn-copiar { background: #4a2c72; color: #e0b0ff; border: 1px solid #7d4dbb; padding: 3px 10px; cursor: pointer; font-size: 10px; border-radius: 4px; margin-top: 8px; font-weight: bold; transition: 0.3s; }
+    .btn-copiar:hover { background: #7d4dbb; color: white; }
+
+    #progressbar { position: fixed; top: 40px; left: 50%; transform: translateX(-50%); width: 800px; background: #2b1b3d !important; z-index: 10001; border: 2px solid #7d4dbb; border-radius: 15px; padding: 3px; box-shadow: 0 0 20px rgba(0,0,0,0.5); }
+    #progress { height: 35px; background: #7d4dbb !important; text-align: center; color: white !important; line-height: 35px; font-weight: bold; border-radius: 10px; transition: width 0.2s; font-size: 13px; }
+    .u-ico { vertical-align: middle; width: 16px; height: 16px; margin-right: 2px; }
+</style>`;
+$("head").append(css);
+
+window.runFilter = function() {
+    var attr = $("#fAttr").val();
+    var comp = $("#fComp").val();
+    var val = parseInt($("#fVal").val()) || 0;
+    var res = [];
+    $.each(playerData, function(pName, data) {
+        data.offVillages.forEach(v => {
+            var check = v[attr];
+            if (attr === "cX") check = parseInt(v.coord.split("|")[0]);
+            if (attr === "cY") check = parseInt(v.coord.split("|")[1]);
+            var match = (comp === ">") ? check > val : (comp === "<") ? check < val : check === val;
+            if (match) res.push({ p: pName, v: v });
+        });
+    });
+    var h = `<span onclick="$('#searchRes').hide()" style="float:right; cursor:pointer; color:red; font-weight:bold;">X</span><strong>Resultados:</strong><br><table class="tbl-tribal"><thead><tr><th>Jugador</th><th>Coord</th><th>Hacha</th><th>Lija</th><th>Ariete</th><th>Catas</th></tr></thead><tbody>`;
+    res.forEach(r => { h += `<tr><td>${r.p}</td><td><a href="${r.v.url}" style="color:#bb8eff;">${r.v.coord}</a></td><td>${r.v.axe}</td><td>${r.v.light}</td><td>${r.v.ram}</td><td>${r.v.catapult}</td></tr>`; });
+    h += `</tbody></table>`;
+    $("#searchRes").html(h).attr('style', 'display: block !important;');
+};
+
+window.copyBB = function() {
+    var copyText = document.getElementById("bbArea");
+    copyText.select();
+    copyText.setSelectionRange(0, 99999);
+    navigator.clipboard.writeText(copyText.value);
+    var btn = $(".btn-copiar");
+    btn.text("¡Copiado!").css("background", "#28a745");
+    setTimeout(function(){ btn.text("Copiar").css("background", "#4a2c72"); }, 2000);
+};
+
+window.genBB = function() {
+    var selected = $("#bbFilter").val();
+    var bb = (selected === "all") ? "[b]RECUENTO OFENSIVO TRIBU[/b]\n[table][**]Jugador[||]Full[||]3/4[||]1/2[||]1/4[/**]\n" : `[b]RECUENTO: [player]${selected}[/player][/b]\n[table][**]Pueblo[||]Hacha[||]Lija[||]Ariete[||]Catas[/**]\n`;
+    if (selected === "all") $.each(playerData, function(n, d) { bb += `[*] [player]${n}[/player] [|] ${d.nukes.f} [|] ${d.nukes.tq} [|] ${d.nukes.h} [|] ${d.nukes.q}\n`; });
+    else playerData[selected].offVillages.forEach(v => { bb += `[*] ${v.coord} [|] ${v.axe} [|] ${v.light} [|] ${v.ram} [|] ${v.catapult}\n`; });
+    bb += "[/table]";
+    $("#bbArea").val(bb); $(".bb-box").attr('style', 'display: block !important;');
+};
+
+window.exportExcel = function() {
+    var csv = "Jugador;Pueblo;Hachas;Ligeras;Arietes;Catas\n";
+    $.each(playerData, function(n, d) { d.offVillages.forEach(v => { csv += `${n};${v.coord};${v.axe};${v.light};${v.ram};${v.catapult}\n`; }); });
+    var link = document.createElement("a"); link.href = URL.createObjectURL(new Blob([csv], {type: 'text/csv'})); link.download = "informe_ofensivo.csv"; link.click();
+};
+
+function renderUI() {
+    $(".soph-wrapper").remove();
+    var h = `
+    <div class="soph-wrapper">
+        <div class="nick-firma">aaglaee 💜</div>
+        <div class="btn-cerrar-x" onclick="$('.soph-wrapper').remove()">✘</div>
+        <div class="script-titulo">Recuento Ofensivo</div>
+        <div class="soph-header">
+            <div>
+                <span onclick="$('.soph-config-area').slideToggle(200)" style="cursor:pointer; font-size: 20px;">⚙️</span>
+                <span style="margin-left:15px; font-weight:bold;">Exportar:</span>
+                <select id="bbFilter" style="background:#2b1b3d; color:white; border-radius:4px;"><option value="all">-- TODA LA TRIBU --</option></select>
+                <button class="btn-tribal" onclick="genBB()">BBCode</button>
+            </div>
+            <button class="btn-excel" onclick="exportExcel()">Exportar Excel</button>
+        </div>
+        <div class="soph-config-area">
+            <b>Configuración:</b><br><br>
+            F: <input id="vFull" type="number" value="${CONFIG.full}" style="width:55px; background:#2b1b3d; color:white;"> | 
+            3/4: <input id="v34" type="number" value="${CONFIG.threeQuarter}" style="width:55px; background:#2b1b3d; color:white;"> | 
+            1/2: <input id="v12" type="number" value="${CONFIG.half}" style="width:55px; background:#2b1b3d; color:white;"> | 
+            1/4: <input id="v14" type="number" value="${CONFIG.quarter}" style="width:55px; background:#2b1b3d; color:white;">
+            <button class="btn-tribal" onclick="applyConfig()">Actualizar</button>
+        </div>
+        <div class="soph-filter-area">
+            <b>Filtro:</b><br><br>
+            <select id="fAttr" style="background:#2b1b3d; color:white;">
+                <option value="axe">Hachas</option><option value="light">Ligeras</option>
+                <option value="ram">Arietes</option><option value="catapult">Catas</option>
+                <option value="cX">Coordenada X</option><option value="cY">Coordenada Y</option>
+            </select>
+            <select id="fComp" style="background:#2b1b3d; color:white;"><option value=">">></option><option value="<"><</option><option value="=">=</option></select>
+            <input type="number" id="fVal" value="0" style="width:65px; background:#2b1b3d; color:white;">
+            <button class="btn-tribal" onclick="runFilter()">Filtrar</button>
+            <div id="searchRes" class="search-res"></div>
+        </div>
+        <div class="bb-box">
+            <span onclick="$('.bb-box').hide()" style="cursor:pointer; color:red; float:right; font-weight:bold;">X</span>
+            <textarea id="bbArea" readonly></textarea>
+            <button class="btn-copiar" onclick="copyBB()">Copiar</button>
+        </div>
+        <div id="pCont"></div>
+    </div>`;
+    $("body").append(h);
+
+    $.each(playerData, function(name, data) {
+        $("#bbFilter").append(`<option value="${name}">${name}</option>`);
+        var pid = name.replace(/\s/g,'_').replace(/['"]/g, '');
+        var row = `
+        <div class="player-row-main">
+            <div style="width:180px"><b>${name}</b></div>
+            <div class="nuke-counts">
+                <span><img src="https://dses.innogamescdn.com/asset/809c991e/graphic/unit/unit_ram.png" class="u-ico"> F: ${data.nukes.f}</span>
+                <span><img src="https://dses.innogamescdn.com/asset/809c991e/graphic/unit/unit_axe.png" class="u-ico"> 3/4: ${data.nukes.tq}</span>
+                <span>🤔 1/2: ${data.nukes.h}</span>
+                <span>😢 1/4: ${data.nukes.q}</span>
+                <span class="detail-btn" onclick="$('#det-${pid}').slideToggle(150)">+ detalles</span>
+            </div>
+        </div>
+        <div id="det-${pid}" class="detail-box">
+            <table class="tbl-tribal">
+                <thead><tr><th>Coord</th><th>Hacha</th><th>Lija</th><th>Ariete</th><th>Catas</th><th>Snob</th></tr></thead>
+                <tbody>${data.offVillages.map(v => `<tr><td><a href="${v.url}" style="color:#bb8eff;">${v.coord}</a></td><td>${v.axe}</td><td>${v.light}</td><td>${v.ram}</td><td>${v.catapult}</td><td>${v.snob}</td></tr>`).join('')}</tbody>
+            </table>
+        </div>`;
+        $("#pCont").append(row);
+    });
+}
+
+function startAnalysis() {
+    $(".soph-wrapper, #progressbar").remove();
+    playerData = {};
+    $("body").append(`<div id="progressbar"><div id="progress" style="width: 0%;">Prepárate para la alegría o el susto...</div></div>`);
+    var index = 0;
+    function loadNext() {
+        if (index >= players.length) { $("#progressbar").remove(); renderUI(); return; }
+        $("#progress").css("width", ((index + 1) / players.length * 100) + "%").text("Prepárate para la alegría o el susto... (" + Math.round(((index + 1) / players.length * 100)) + "%)");
+        $.get(playerURLs[index], function(data) {
+            var pData = { nukes: { f: 0, tq: 0, h: 0, q: 0 }, offVillages: [] };
+            $(data).find(".vis.w100 tr").not(':first').each(function() {
+                var c = $(this).children();
+                var link = c.find("a[href*='screen=info_village']").first();
+                if (link.length === 0) return;
+                var co = link.text().match(/\d{1,3}\|\d{1,3}/);
+                if (!co) return;
+                var v = {
+                    url: link.attr("href"), coord: co[0],
+                    axe: parseInt(c.eq(4).text()) || 0, spy: parseInt(c.eq(6).text()) || 0,
+                    light: parseInt(c.eq(7).text()) || 0, marcher: parseInt(c.eq(8).text()) || 0,
+                    ram: parseInt(c.eq(10).text()) || 0, catapult: parseInt(c.eq(11).text()) || 0,
+                    snob: parseInt(c.eq(13).text()) || 0
+                };
+                var pop = v.axe + (v.spy*2) + (v.light*4) + (v.marcher*5) + (v.ram*5) + (v.catapult*8);
+                if (pop >= CONFIG.quarter) {
+                    if (pop >= CONFIG.full) pData.nukes.f++; 
+                    else if (pop >= CONFIG.threeQuarter) pData.nukes.tq++; 
+                    else if (pop >= CONFIG.half) pData.nukes.h++; 
+                    else pData.nukes.q++;
+                    pData.offVillages.push(v);
+                }
+            });
+            playerData[players[index]] = pData;
+            index++; setTimeout(loadNext, 250);
+        });
+    }
+    loadNext();
+}
+
+window.applyConfig = function() {
+    CONFIG.full = parseInt($("#vFull").val()) || 18000;
+    CONFIG.threeQuarter = parseInt($("#v34").val()) || 13500;
+    CONFIG.half = parseInt($("#v12").val()) || 9000;
+    CONFIG.quarter = parseInt($("#v14").val()) || 4500;
+    startAnalysis();
+};
+
+startAnalysis();
